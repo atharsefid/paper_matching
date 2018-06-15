@@ -1,0 +1,38 @@
+# Tuning hyper-parameters for precision 
+
+Best parameters set found on development set: 
+
+{'C': 100, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+Grid scores on development set: 
+
+0.954 (+/-0.020) for {'C': 1, 'kernel': 'linear', 'probability': True} 
+0.954 (+/-0.020) for {'C': 10, 'kernel': 'linear', 'probability': True} 
+0.954 (+/-0.020) for {'C': 100, 'kernel': 'linear', 'probability': True} 
+0.954 (+/-0.023) for {'C': 1000, 'kernel': 'linear', 'probability': True} 
+0.955 (+/-0.021) for {'C': 1, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True} 
+0.954 (+/-0.039) for {'C': 1, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True} 
+0.954 (+/-0.024) for {'C': 10, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True} 
+0.954 (+/-0.021) for {'C': 10, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True} 
+0.962 (+/-0.028) for {'C': 100, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True} 
+0.954 (+/-0.025) for {'C': 100, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True} 
+0.961 (+/-0.028) for {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True} 
+0.956 (+/-0.023) for {'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True} 
+# Tuning hyper-parameters for recall 
+
+Best parameters set found on development set: 
+
+{'C': 1000, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True}
+Grid scores on development set: 
+
+0.953 (+/-0.022) for {'C': 1, 'kernel': 'linear', 'probability': True} 
+0.953 (+/-0.022) for {'C': 10, 'kernel': 'linear', 'probability': True} 
+0.953 (+/-0.022) for {'C': 100, 'kernel': 'linear', 'probability': True} 
+0.953 (+/-0.022) for {'C': 1000, 'kernel': 'linear', 'probability': True} 
+0.951 (+/-0.026) for {'C': 1, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True} 
+0.954 (+/-0.034) for {'C': 1, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True} 
+0.954 (+/-0.026) for {'C': 10, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True} 
+0.952 (+/-0.026) for {'C': 10, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True} 
+0.958 (+/-0.020) for {'C': 100, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True} 
+0.953 (+/-0.023) for {'C': 100, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True} 
+0.966 (+/-0.036) for {'C': 1000, 'gamma': 0.001, 'kernel': 'rbf', 'probability': True} 
+0.955 (+/-0.024) for {'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf', 'probability': True} 

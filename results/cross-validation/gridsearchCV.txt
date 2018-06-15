@@ -1,0 +1,38 @@
+# Tuning hyper-parameters for precision 
+
+Best parameters set found on development set: 
+
+{'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 20, 'objective': 'reg:linear', 'subsample': 1}
+Grid scores on development set: 
+
+0.957 (+/-0.019) for {'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 10, 'objective': 'reg:linear', 'subsample': 1} 
+0.958 (+/-0.020) for {'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 15, 'objective': 'reg:linear', 'subsample': 1} 
+0.959 (+/-0.020) for {'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 20, 'objective': 'reg:linear', 'subsample': 1} 
+0.958 (+/-0.016) for {'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 30, 'objective': 'reg:linear', 'subsample': 1} 
+0.950 (+/-0.024) for {'colsample_bytree': 1, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 10, 'objective': 'reg:linear', 'subsample': 1} 
+0.950 (+/-0.025) for {'colsample_bytree': 1, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 15, 'objective': 'reg:linear', 'subsample': 1} 
+0.949 (+/-0.023) for {'colsample_bytree': 1, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 20, 'objective': 'reg:linear', 'subsample': 1} 
+0.948 (+/-0.023) for {'colsample_bytree': 1, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 30, 'objective': 'reg:linear', 'subsample': 1} 
+0.950 (+/-0.022) for {'colsample_bytree': 1, 'max_depth': 100, 'min_child_weight': 1, 'n_estimators': 10, 'objective': 'reg:linear', 'subsample': 1} 
+0.946 (+/-0.019) for {'colsample_bytree': 1, 'max_depth': 100, 'min_child_weight': 1, 'n_estimators': 15, 'objective': 'reg:linear', 'subsample': 1} 
+0.944 (+/-0.018) for {'colsample_bytree': 1, 'max_depth': 100, 'min_child_weight': 1, 'n_estimators': 20, 'objective': 'reg:linear', 'subsample': 1} 
+0.946 (+/-0.022) for {'colsample_bytree': 1, 'max_depth': 100, 'min_child_weight': 1, 'n_estimators': 30, 'objective': 'reg:linear', 'subsample': 1} 
+# Tuning hyper-parameters for recall 
+
+Best parameters set found on development set: 
+
+{'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 30, 'objective': 'reg:linear', 'subsample': 1}
+Grid scores on development set: 
+
+0.945 (+/-0.022) for {'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 10, 'objective': 'reg:linear', 'subsample': 1} 
+0.946 (+/-0.026) for {'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 15, 'objective': 'reg:linear', 'subsample': 1} 
+0.948 (+/-0.028) for {'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 20, 'objective': 'reg:linear', 'subsample': 1} 
+0.951 (+/-0.030) for {'colsample_bytree': 1, 'max_depth': 3, 'min_child_weight': 1, 'n_estimators': 30, 'objective': 'reg:linear', 'subsample': 1} 
+0.948 (+/-0.034) for {'colsample_bytree': 1, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 10, 'objective': 'reg:linear', 'subsample': 1} 
+0.949 (+/-0.033) for {'colsample_bytree': 1, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 15, 'objective': 'reg:linear', 'subsample': 1} 
+0.950 (+/-0.035) for {'colsample_bytree': 1, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 20, 'objective': 'reg:linear', 'subsample': 1} 
+0.950 (+/-0.036) for {'colsample_bytree': 1, 'max_depth': 10, 'min_child_weight': 1, 'n_estimators': 30, 'objective': 'reg:linear', 'subsample': 1} 
+0.943 (+/-0.030) for {'colsample_bytree': 1, 'max_depth': 100, 'min_child_weight': 1, 'n_estimators': 10, 'objective': 'reg:linear', 'subsample': 1} 
+0.941 (+/-0.028) for {'colsample_bytree': 1, 'max_depth': 100, 'min_child_weight': 1, 'n_estimators': 15, 'objective': 'reg:linear', 'subsample': 1} 
+0.944 (+/-0.026) for {'colsample_bytree': 1, 'max_depth': 100, 'min_child_weight': 1, 'n_estimators': 20, 'objective': 'reg:linear', 'subsample': 1} 
+0.943 (+/-0.020) for {'colsample_bytree': 1, 'max_depth': 100, 'min_child_weight': 1, 'n_estimators': 30, 'objective': 'reg:linear', 'subsample': 1} 

@@ -1,0 +1,42 @@
+# Tuning hyper-parameters for precision 
+
+Best parameters set found on development set: 
+
+{'C': 0.001, 'penalty': 'l1'}
+Grid scores on development set: 
+
+0.973 (+/-0.021) for {'C': 0.001, 'penalty': 'l1'} 
+0.895 (+/-0.038) for {'C': 0.001, 'penalty': 'l2'} 
+0.961 (+/-0.025) for {'C': 0.01, 'penalty': 'l1'} 
+0.950 (+/-0.019) for {'C': 0.01, 'penalty': 'l2'} 
+0.960 (+/-0.026) for {'C': 0.1, 'penalty': 'l1'} 
+0.954 (+/-0.016) for {'C': 0.1, 'penalty': 'l2'} 
+0.960 (+/-0.024) for {'C': 1, 'penalty': 'l1'} 
+0.956 (+/-0.018) for {'C': 1, 'penalty': 'l2'} 
+0.959 (+/-0.024) for {'C': 10, 'penalty': 'l1'} 
+0.959 (+/-0.024) for {'C': 10, 'penalty': 'l2'} 
+0.959 (+/-0.024) for {'C': 100, 'penalty': 'l1'} 
+0.959 (+/-0.024) for {'C': 100, 'penalty': 'l2'} 
+0.959 (+/-0.024) for {'C': 1000, 'penalty': 'l1'} 
+0.959 (+/-0.024) for {'C': 1000, 'penalty': 'l2'} 
+# Tuning hyper-parameters for recall 
+
+Best parameters set found on development set: 
+
+{'C': 0.001, 'penalty': 'l2'}
+Grid scores on development set: 
+
+0.581 (+/-0.016) for {'C': 0.001, 'penalty': 'l1'} 
+0.979 (+/-0.015) for {'C': 0.001, 'penalty': 'l2'} 
+0.947 (+/-0.023) for {'C': 0.01, 'penalty': 'l1'} 
+0.961 (+/-0.026) for {'C': 0.01, 'penalty': 'l2'} 
+0.948 (+/-0.026) for {'C': 0.1, 'penalty': 'l1'} 
+0.954 (+/-0.020) for {'C': 0.1, 'penalty': 'l2'} 
+0.949 (+/-0.020) for {'C': 1, 'penalty': 'l1'} 
+0.950 (+/-0.020) for {'C': 1, 'penalty': 'l2'} 
+0.948 (+/-0.020) for {'C': 10, 'penalty': 'l1'} 
+0.948 (+/-0.020) for {'C': 10, 'penalty': 'l2'} 
+0.948 (+/-0.020) for {'C': 100, 'penalty': 'l1'} 
+0.948 (+/-0.020) for {'C': 100, 'penalty': 'l2'} 
+0.948 (+/-0.020) for {'C': 1000, 'penalty': 'l1'} 
+0.948 (+/-0.020) for {'C': 1000, 'penalty': 'l2'} 
